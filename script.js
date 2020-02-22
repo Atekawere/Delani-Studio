@@ -11,6 +11,6 @@ $(document).ready(function(){
 });
 $(document).ready(function(){
     $(".rate img").click(function(){
-    $("#fas p").toogle();
+    $("#fas p").toggle();
     });
 });
