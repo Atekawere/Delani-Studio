@@ -1,3 +1,6 @@
+*{
+    overflow-x: hidden;
+}*
 .fluid{
     background-image: url(./images/backgrounds/h_img.jpg);
     background-size: cover;
@@ -21,6 +24,18 @@
 
 .about{
     text-align: center;
+}
+#what-we-do{
+    text-align: center;
+}
+#low p{
+    display:none;
+}
+#fas p{
+    display: none;
+}
+#tee p{
+    display: none;
 }
 .services{
     background-image: url(./images/backgrounds/s_image.jpg);
@@ -47,3 +62,24 @@
     text-align: center;
     
 }
+input{
+    width: 20%;
+    background: transparent;
+}
+textarea{
+    height: 530%;
+    width: 40%;
+    padding-bottom:5%;
+    color: black;
+    background: transparent;
+}
+.footer{
+    text-align: center;
+}
+.set{
+    margin-top: 20px;
+}
+/* #portfolio{
+    margin-left: 40px;
+    margin-right: 50px;
+} */
