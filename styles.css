@@ -1,6 +1,9 @@
 *{
     overflow-x: hidden;
 }*
+body{
+    text-align: center;
+}
 .fluid{
     background-image: url(./images/backgrounds/h_img.jpg);
     background-size: cover;
@@ -25,7 +28,10 @@
 .about{
     text-align: center;
 }
-#what-we-do{
+ img{
+    position: center;
+}
+h2,p{
     text-align: center;
 }
 #low p{
@@ -37,6 +43,7 @@
 #tee p{
     display: none;
 }
+
 .services{
     background-image: url(./images/backgrounds/s_image.jpg);
     color: white;
@@ -60,17 +67,18 @@
     padding-top: 40px;
     padding-bottom: 20px;
     text-align: center;
-    
+    color: white;
 }
 input{
     width: 20%;
     background: transparent;
+    color: white;
 }
 textarea{
     height: 530%;
     width: 40%;
     padding-bottom:5%;
-    color: black;
+    color: white;
     background: transparent;
 }
 .footer{
@@ -79,7 +87,10 @@ textarea{
 .set{
     margin-top: 20px;
 }
-/* #portfolio{
-    margin-left: 40px;
-    margin-right: 50px;
-} */
+#portfolio{
+    margin-left: 180px;
+    margin-right: 180px;
+}
+#fle{
+    text-align: center;
+}

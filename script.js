@@ -1,16 +1,19 @@
 $(document).ready(function(){
-$(".rate img").click(function(){
-$("#low p").toggle();
+$(".two img").click(function(){
+$(".two img").slideToggle();
+$("#low p").slideToggle();
 });
+});
+$(document).ready(function(){
+    $(".one img").click(function(){
+    $(".one img").slideToggle();
+    $("#fas p").slideToggle();
+    });
 });
 
 $(document).ready(function(){
-    $(".rate img").click(function(){
-    $("#tee p").toggle();
-    });
-});
-$(document).ready(function(){
-    $(".rate img").click(function(){
-    $("#fas p").toggle();
+    $(".three img").click(function(){
+    $(".three img").toggle();
+    $("#tee p").slideToggle();
     });
 });
