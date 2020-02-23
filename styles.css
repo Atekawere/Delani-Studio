@@ -248,6 +248,10 @@ textarea{
   .row:hover .fit{
        opacity: 1;
   }
+  .submit{
+      width: 10%;
+      height: 5%;
+  }
   
   
   
