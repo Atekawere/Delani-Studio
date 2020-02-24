@@ -17,3 +17,15 @@ $(document).ready(function(){
     $("#tee p").slideToggle();
     });
 });
+
+function myFunction(){
+    var type;
+    var person = prompt("please type your message");
+    if(person == null || person=="");{
+    alert="User cancelled the prompt.";
+}
+else{
+    type="we have received your message thankyou for sharing with us";
+}
+document.getElementById(gap).innerHTML=type
+}
