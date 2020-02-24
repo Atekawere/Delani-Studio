@@ -23,7 +23,7 @@ To get a local copy of the site:
 | Email     | The users email. ``eg usermail@gmail.com``   |
 | Message    | The message from the user.   |
 ## Bugs.
+1. The mail chip is not working
 ## License
 >MIT LICENSE &copy; 2019 Jacinta Ateka
 ## Collaborate
-To contribute to Studio-Delani, reach me on [Email](jacintawere2@gmail.com).

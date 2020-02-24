@@ -5,27 +5,29 @@ $("#low p").slideToggle();
 });
 });
 $(document).ready(function(){
-    $(".one img").click(function(){
+    $(".one ").click(function(){
     $(".one img").slideToggle();
     $("#fas p").slideToggle();
     });
 });
 
 $(document).ready(function(){
-    $(".three img").click(function(){
+    $(".three").click(function(){
     $(".three img").toggle();
     $("#tee p").slideToggle();
     });
 });
+function myName(submit){
+    var name=document.$("input#name").val();
+    alert=("" + name +"we have received your message thankyou for sharing with us");
 
-function myFunction(){
-    var type;
-    var person = prompt("please type your message");
-    if(person == null || person=="");{
-    alert="User cancelled the prompt.";
-}
-{
-    type="we have received your message thankyou for sharing with us";
-}
-document.getElementById(gap).innerHTML=type
-}
+};
+$(document).ready(function(){
+    $("form#contacts").submit(function(event){
+        var name = $("input#name").val();
+        var email = $("input#email").val();
+        var message = $("input#message").val();
+        alert (" yes " + name + ",we have received your message,thank you.");
+    })
+})
+
