@@ -24,7 +24,7 @@ function myFunction(){
     if(person == null || person=="");{
     alert="User cancelled the prompt.";
 }
-else{
+{
     type="we have received your message thankyou for sharing with us";
 }
 document.getElementById(gap).innerHTML=type
