@@ -23,7 +23,7 @@ To get a local copy of the site:
 | Email     | The users email. ``eg usermail@gmail.com``   |
 | Message    | The message from the user.   |
 ## Bugs.
-1. The mail chip is not working
+1. The toogle part on what we do isnt working well
 ## License
->MIT LICENSE &copy; 2019 Jacinta Ateka
+>MIT LICENSE &copy; 2020 Jacinta Ateka
 ## Collaborate
