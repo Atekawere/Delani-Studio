@@ -27,3 +27,4 @@ To get a local copy of the site:
 ## License
 >MIT LICENSE &copy; 2020 Jacinta Ateka
 ## Collaborate
+ Do not hesitate to communicate to me through :jacintawere2@gmail.com
