@@ -27,6 +27,7 @@ body{
 
 .about{
     text-align: center;
+    font-family: 'Romanesco', serif;
 }
  img{
     position: center;
@@ -101,7 +102,7 @@ textarea{
 }
 
   
-  .middle {
+  .saf {
     transition: .5s ease;
     opacity: 0;
     position: absolute;
@@ -116,7 +117,7 @@ textarea{
     opacity: 0.3;
   }
   
-  .row:hover .middle {
+  .row:hover .saf {
     opacity: 1;
   }
   

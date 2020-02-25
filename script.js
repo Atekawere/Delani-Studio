@@ -17,17 +17,13 @@ $(document).ready(function(){
     $("#tee p").slideToggle();
     });
 });
-function myName(submit){
-    var name=document.$("input#name").val();
-    alert=("" + name +"we have received your message thankyou for sharing with us");
 
-};
 $(document).ready(function(){
     $("form#contacts").submit(function(event){
         var name = $("input#name").val();
         var email = $("input#email").val();
         var message = $("input#message").val();
-        alert (" yes " + name + ",we have received your message,thank you.");
+        alert (" Hi " + name + ",we have received your message,thank you for communicating to us.");
     })
 })
 
