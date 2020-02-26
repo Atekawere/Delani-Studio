@@ -100,163 +100,53 @@ textarea{
     text-align: center;
 }
 
-  
-  .saf {
-    transition: .5s ease;
-    opacity: 0;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-    text-align: center;
-  }
-  
-  .row:hover .image {
-    opacity: 0.3;
-  }
-  
-  .row:hover .saf {
-    opacity: 1;
-  }
-  
-  .text {
-    background-color: white;
-    color: black;
-    font-size: 16px;
-    padding: 16px 32px;
-  } 
-  .tye{
-    transition: .5s ease;
-    opacity: 0;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-    text-align: center;
-
-  } 
-  .row:hover .kit{
-    opacity: 0.3;
-
-  }
-  .row:hover .tye{
-       opacity: 1;
-  }
-  .wed{
-    transition: .5s ease;
-    opacity: 0;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-    text-align: center;
-
-  } 
-  .row:hover .ten{
-    opacity: 0.3;
-
-  }
-  .row:hover .wed{
-       opacity: 1;
-  }
-  .lok{
-    transition: .5s ease;
-    opacity: 0;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-    text-align: center;
-
-  } 
-  .row:hover .hit{
-    opacity: 0.3;
-
-  }
-  .row:hover .lok{
-       opacity: 1;
-  }
-  
-  .doe{
-    transition: .5s ease;
-    opacity: 0;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-    text-align: center;
-
-  } 
-  .row:hover .jin{
-    opacity: 0.3;
-
-  }
-  .row:hover .doe{
-       opacity: 1;
-  }
-  .rej{
-    transition: .5s ease;
-    opacity: 0;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-    text-align: center;
-
-  } 
-  .row:hover .jer{
-    opacity: 0.3;
-
-  }
-  .row:hover .rej{
-       opacity: 1;
-  }
-  .pop{
-    transition: .5s ease;
-    opacity: 0;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-    text-align: center;
-
-  } 
-  .row:hover .moji{
-    opacity: 0.3;
-
-  }
-  .row:hover .pop{
-       opacity: 1;
-  }
-  .fit{
-    transition: .5s ease;
-    opacity: 0;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-    text-align: center;
-
-  } 
-  .row:hover .yet{
-    opacity: 0.3;
-
-  }
-  .row:hover .fit{
-       opacity: 1;
-  }
   .submit{
       width: 10%;
-      height: 5%;
+      height: 5%; 
   }
-  
+  #image:hover{
+    position: relative;
+    opacity: 0.3;
+  }
+  .text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: none;
+    border-radius:  15px white;
+    color: black;
+    border: white;
+    padding: 16px 32px;
+    font-size: 16px;
+  }
+  #kit:hover{
+    position: relative;
+    opacity: 0.3;
+  }
+  #ten:hover{
+    position: relative;
+    opacity: 0.7;
+  }
+  #jin:hover{
+    position:relative;
+    opacity:0.7;
+  }
+  #hit:hover{
+      position: relative;
+      opacity: 0.7;
+  }
+  #moji:hover{
+    position: relative;
+    opacity: 0.7;
+  }
+  #jer:hover{
+    position: relative;
+    opacity: 0.7;
+  }
+  #yet:hover{
+    position:relative;
+    opacity:0.7;
+  }
   
   
