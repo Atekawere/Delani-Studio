@@ -1,20 +1,22 @@
-$(document).ready(function(){
-$(".two img").click(function(){
-$(".two img").slideToggle();
-$("#low p").slideToggle();
-});
-});
-$(document).ready(function(){
-    $(".one ").click(function(){
-    $(".one img").slideToggle();
-    $("#fas p").slideToggle();
-    });
-});
 
 $(document).ready(function(){
+    $(".one ").click(function(){
+    $("#fas p").toggle();
+    $("#image1").toggle();
+    });
     $(".three").click(function(){
-    $(".three img").toggle();
-    $("#tee p").slideToggle();
+    $("#tee p").toggle();
+    $("#image2").toggle();
+    });
+   $(".Dep").click(function(){
+       $("#Design").toggle();
+       $("#image0").toggle();
+   });
+});
+$(document).ready(function(){
+    $(".image").mouseover(function(){
+    $(".text").fadeIn();
+    $(".text").show();
     });
 });
 
@@ -25,5 +27,6 @@ $(document).ready(function(){
         var message = $("input#message").val();
         alert (" Hi " + name + ",we have received your message,thank you for communicating to us.");
     })
+
 })
 
